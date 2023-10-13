@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon" href="img/twiceicon.jpg" type="image/jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&display=swap" 
+rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <title>Teyvat</title>
+    <style>
+        header{
+            background: url(img/Main\ wallpaper.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 721px;
+        }
+        .nav-wrapper{
+            height: 60px;
+            padding-bottom: 5px;
+        }
+        header .navbar-fixed{
+            height: 0%;
+        }
+        header .brand-logo, header .sidenav-trigger{
+            font-weight: 700;
+            letter-spacing: 5px;
+            font-size: 2.5em;
+            font-family: sans-serif;
+        }
+        @media screen and(max-width: 670px){
+            header{
+                min-height: 500px;
+            }
+        }
+        .tabs .indicator{
+      background-color: #f06292;
+    }
+    .tabs .tab a:hover, .tabs .tab a.active{
+    background-color: transparent;
+    }
+    body{
+      background: url(img/Main\ wallpaper.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;      
+      height: 100vh;
+      width: auto;
+      padding-right: 0;
+      background-color: black;
+    }
+    img{
+        height: 70px;
+    }
+    .city_content{
+        padding-left: 26.6%;
+    }
+    .liyuelog{
+        padding-left: 26.6%;
+    }
+    div .center{
+        letter-spacing: 10px;
+    }
+    .Inazumalog{
+        padding-left: 45.5%;
+    }
+    .sumerulog{
+        padding-left: 46%;
+    }
+    footer{
+        background-color: black;
+    }
+    footer .p-text{
+      font-family: 'AR One Sans', sans-serif;
+      letter-spacing: 1px;
+      color:  white ;
+    }
+    footer .footer-copyright{
+      font-family: 'Roboto Mono', monospace;
+      letter-spacing: 4px;
+    }
+    header .sidenav{
+      font-family: 'Roboto Mono', monospace;
+      letter-spacing: 1px;
+      color:  #FF5FA2 ;
+      background: url(img/Main\ wallpaper.jpg);
+    }
+    .About-me{
+        text-align: center;
+    }
+    .p-text{
+        text-align: center;
+        padding: 10px;
+    }
+    .text-connect{
+        text-align: center;
+    }
+    .pfb-text{
+        padding-left: 48%;
+    }
+    .pyt-text{
+        padding-left: 48.2%;
+    }
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+
+    <header id="home">
+        <div class="navbar-fixed">
+            <nav class="nav-wrapper black">
+                <div class="container">
+                    <a href="" class="brand-logo">TEYVAT</a>
+                    <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#" class="Home">Home</a></li>
+                        <li><a href="#" class="Nations">Nations</a></li>
+                        <li><a href="#" class="Teyvat">Teyvat</a></li>
+                        <li><a href="https://www.facebook.com/Genshinimpact" class="tooltipped btn-floating btn-med blue darken-2" data-tooltip="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a></li>
+                        <li><a href="https://www.youtube.com/@GenshinImpact/featured" class="tooltipped btn-floating btn-med red darken-2" data-tooltip="Youtube">
+                            <i class="fab fa-youtube"></i>  
+                          </a></li>
+                    </ul>
+                    <ul class="sidenav" id="mobile-menu">
+                        <li><a href="#" class="sidenav-close">Home</a></li>
+                        <li><a href="#" class="sidenav-close">Teyvat</a></li>
+                        <li><a href="#" class="sidenav-close">Nations</a></li>
+                        <li><a href="https://www.facebook.com/Genshinimpact" class="tooltipped btn btn-small blue darken-2" data-tooltip="Facebook"><i class="fab fa-facebook">Facebook</i></a></li>
+                        <li><a href="https://www.youtube.com/@GenshinImpact/featured" class="tooltipped btn btn-small red darken-2" data-tooltip="Youtube">
+                            <i class="fab fa-youtube">Youtube</i>  
+                          </a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Teyvat -->
+    <hr>
+
+    <section class="container section scrollspy" id="Nations">
+        <h1 class="center white-text text-lighten-2">TEYVAT</h1>
+        <h5 class="center white-text">You have arrived in Teyvat — a fantasy world where the seven elements flow and converge.
+            In the distant past, the Archons granted mortals unique elemental abilities. With the help of such powers, people formed a bountiful homeland out of the wilderness. However, 500 years ago, the collapse of an ancient civilization turned the universe upside down...
+            Though the calamity the world suffered has ceased, peace has yet to be restored.</h5>
+            <br>
+        <div class="row">
+            <hr><hr>
+            <br>
+            <h2 class="center white-text">Nations</h2>
+            <br><br>
+    </section>
+
+    <!-- Nations cards -->
+    <section class="container scrollspy">
+        <div class="city_content">
+            <img src="/img/Mondsadt logo.png" class="city_content">
+        </div>
+        <div><h4 class="center-align white-text">Mondstadt</h4></div>
+        </div>
+        <div><h5 class="center-align white-text">A city of freedom that lies in the northeast of Teyvat.
+            From amongst mountains and wide-open plains, carefree breezes carry the scent of dandelions — a gift from the Anemo God, Barbatos — across Cider Lake to Mondstadt, which sits on an island in the middle of the lake.</h5></div>
+            <br>
+            <br>
+            <div class="center-align">
+                <img src="/img/Mondstadt.jpg" class="responsive-img">
+            </div>
+            <br>
+            <div class="center-align">
+                <img src="/img/mondstadt carousel.jpg" class="responsive-img">
+            </div>
+            <hr>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="city_content">
+                <img src="/img/Liyue logo.png" class="liyuelog">
+                <br>
+            </div>
+            <div><h4 class="center white-text">Liyue</h4></div>
+            <div><h5 class="center-align white-text">A bountiful harbor that lies in the east of Teyvat.
+                Mountains stand tall and proud alongside the stone forest, that together with the open plains and lively rivers make up Liyue's bountiful landscape, which shows its unique beauty through each of the four seasons. Just how many gifts from the Geo God lie in wait amongst the rocks of Liyue's mountains?</h5></div>
+                <br>
+                <br>
+            <div class="center-align">
+                <img src="/img/Liyue.jpg" class="responsive-img">
+            </div>    
+            <br>
+            <div class="center-align">
+                <img src="/img/liyuepic.png" class="responsive-img">
+            </div>
+            <hr>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="city_content1">
+                <img src="/img/Inazuma logo.png" class="Inazumalog">
+                <br>
+            </div>
+            <div><h4 class="center white-text">Inazuma</h4></div>
+            <div><h5 class="center-align white-text">An Isolated Archipelago Far East of Teyvat
+                Overcome endless thunderstorms and set foot on the islands of red maple and cherry blossoms. On winding shores and towering cliffs, and in forests and mountains full of secrets, witness the Eternity pursued by Her Excellency, the Almighty Narukami Ogosho.
+                 </h5></div>
+                 <br>
+                 <div class="center-align">
+                    <img src="/img/Inazuma.jpg" class="responsive-img">
+                </div>    
+                <br>
+                <div class="center-align">
+                    <img src="/img/Inazumapic.jpg" class="responsive-img">
+                </div>
+                <hr>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="city_content2">
+                <img src="/img/Sumeru logo.png" class="sumerulog">
+                <br>
+            </div>
+            <div><h4 class="center white-text">Sumeru</h4></div>
+            <div><h5 class="center-align white-text">he city of scholars located in the west-central part of Teyvat.
+                A fantastical nation of both lush rainforest and barren desert, where countless fruits of wisdom grow and are buried. Whether Travelers travel from afar through the forest to reach the academy city or delve deep into the desert to discover the historical ruins of the red desert, a wealth of valuable knowledge awaits them here.
+                 </h5></div>
+                 <br>
+                 <div class="center-align">
+                    <img src="/img/Sumeru.jpg" class="responsive-img">
+                </div>    
+                <br>
+                <div class="center-align">
+                    <img src="/img/sumerupic.jpg" class="responsive-img">
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+    </section>
+
+    <!-- footer -->
+    <footer class="page-footer">
+        <div class="row">
+            <h5 class="About-me">About Me</h5>
+        </div>
+        <p class="p-text">Lorem ipsum dolor 
+            sit amet consectetur adipisicing elit.
+             Nostrum debitis sapiente dicta amet recusandae 
+             possimus corrupti necessitatibus odio esse, 
+             quisquam libero ea doloribus 
+             cum mollitia? Repellendus nisi ullam 
+             similique laboriosam.</p>
+        </div>
+        <div class="col s12 l4 offset-l2">
+          <h5 class="text-connect">Connect</h5>
+          <ul>
+            <li><a href="https://www.facebook.com/Genshinimpact" class="pfb-text">Facebook</a></li>
+            <li><a href="https://www.youtube.com/@GenshinImpact/featured" class="pyt-text">Youtube</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright light-blue darken-2">
+      <div class="container center-align">Copyright © COGNOSPHERE. All Rights Reserved.</div>
+    </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox()
+      $('.parallax').parallax()
+      $('.tabs').tabs()
+      $('.datepicker').datepicker({
+        disableWeekends: true
+      })
+      $('.tooltipped').tooltip()
+      $('.scrollspy').scrollSpy()
+      $('.carousel.carousel-slider').carousel({
+        indicators: true,      
+      })
+      $('video').on('play', function(){
+        $('video').not(this).each(function(){
+          this.pause();
+        });
+      })
+      
+      
+    });
+  </script>
+</body>
+</html>
